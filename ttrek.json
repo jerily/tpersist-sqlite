@@ -1,0 +1,25 @@
+{
+  "name": "tpersist-sqlite",
+  "version": "0.1.8",
+  "license": "MIT",
+  "dependencies": {
+    "tdbcsqlite3": ">=1.1.8"
+  },
+  "build": {
+    "default": [
+      {
+        "cmd": "cd",
+        "dirname": "$SOURCE_DIR"
+      },
+      {
+        "cmd": "make_install",
+        "options": [
+          {
+            "name": "PREFIX",
+            "value": "$INSTALL_DIR"
+          }
+        ]
+      }
+    ]
+  }
+}
