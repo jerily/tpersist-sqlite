@@ -1,5 +1,5 @@
 PREFIX ?= /usr/local
-pkgdir = $(DESTDIR)$(PREFIX)/lib/tpersist-sqlite0.1.8
+pkgdir = $(DESTDIR)$(PREFIX)/lib/tpersist-sqlite0.1.9
 
 .PHONY: install
 install:
